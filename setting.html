@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="min-width:400px; height:600px;">
+    <header><h3 style="display:inline">Setting</h3><a href="index.html">Go back</a></header>
+    <main>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <label for="name" class="form-control-label">What is First Name?</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col">
+                    <label for="location" class="form-control-label">Your Location: </label>
+                    <input type="text" id="location" class="form-control" placeholder="Enter zipcode or pincode or cityname or latitude/longitude(format matters)">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary mt-2" id="saveSetting">Save</button> 
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+
+    <footer></footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="setting.js"></script>
+</body>
+</html>

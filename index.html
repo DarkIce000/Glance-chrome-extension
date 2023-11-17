@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        
+</head>
+
+<body style="min-width:400px">
+
+    <header id="greet" class="mt-1" sytle="width:100%">
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <p>Welcome <span id="Username">Aarav</span>!</p>
+                    <h1 id="date" class="display-2"></h1>
+                </div>
+                <div class="col-5">
+                    <span> 
+                        <p><span id="temp"> <!--temperature in Degree celcius --></span> <b >&#176; C</b> <img src="" id="weather-condition-icon" alt="weather condition image"> <span id="location"></span></p> 
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>   
+
+    <main>
+        <!-- tips card -->
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <blockquote >
+                        <p>&#10077; <span class="card-text">A ship in port is safe; but that is not what ships are built for.</span> &#10078; </p>   
+                    </blockquote>
+                    <p style="text-align: end;"> &#8212; <cite class="card-title" style="text-align: end;"></cite></p>
+                </div>
+            </div>
+
+            <!-- todo section  -->
+            <div class="row">
+                <div class="col"> 
+                            <h2 class="">To-Do List</h2> 
+                            <hr>
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="task" class="">Add a new Task</label>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center primary me-1">
+                                    <div class="col-10 m-0">
+                                        <input type="text" id="task" class="form-control">
+                                    </div>
+                                    <div class="col-2 m-0"> 
+                                        <button type="submit" class="btn btn-primary">Add</button>
+                                    </div>  
+                                </div>
+                            </form>
+                        </div>
+                </div>
+
+                <ul id="tasklist" class="list-group mt-3">
+
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+        <footer class="m-3" >Change Name and Location <a href="setting.html">Setting</a></footer>
+<script src="script.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

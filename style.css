@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+#date{
+    font-family: 'Monoton', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+#location{
+    font-size: small;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color:rgb(255, 233, 201);
+
+    height: 100%;
+}
+
+li{
+    font-family:monospace;
+    font-size:small;
+    font-weight: 500;
+}
+
+.card-title{
+    font-size: 14px;
+}
+
+h2{
+    margin-top:20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+label, #temp{
+    font-weight:600;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    user-select:none;
+    position:relative;
+    background-color:white;
+}
+
+ul li::before {
+    content:'';
+    position:absolute;
+    border-radius: 50%;
+    background-image: url('images/icons8-unchecked-50.png');
+    background-size: cover;
+}
+
+
+ul li.checked{
+    text-decoration:line-through;
+    background-color:mediumaquamarine;
+}
+
+ul li.checked::before{
+    background-image: url('images/icons8-checked-50.png');
+}
+
+ul li span{
+    position : absolute; 
+    right: 0;
+    height:20px;
+    width:20px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+ul li span:hover{
+    background: #edeef0;
+
+}
+
+footer{
+    font-size:x-small;
+    right:0;
+    text-align:end;
+}
