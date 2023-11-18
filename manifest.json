@@ -7,12 +7,12 @@
 		"default_icon": {
 			"16": "images/icon16.png"
 		},
-		"default_title": "Click Me",
+		"default_title": "Glance",
 		"default_popup": "index.html"
 	},
 
 
-	"description": "AutoGrouper help you organise your tab mess",
+	"description": "To do list Manager with Current Temperature",
 	"author": "aarav7397@gmail.com",
 
 	"permissions": [
