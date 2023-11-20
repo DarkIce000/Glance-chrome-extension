@@ -11,13 +11,9 @@ This is a chrome Extension that manages your tasks as well as motivating you wit
 
 ## Screenshots
 
-![homepage shot.png](![Screenshot_2023-11-17_18-20-32](https://github.com/DarkIce000/Glance/assets/116939251/4e9fbd1a-6f77-468e-842c-b7917952cad1)
+![Screenshot_2023-11-17_18-20-32](https://github.com/DarkIce000/Glance/assets/116939251/4e9fbd1a-6f77-468e-842c-b7917952cad1)
 ![homepage shot~3](https://github.com/DarkIce000/Glance/assets/116939251/11336575-86e1-4c48-adcd-3dd96d4dba78)
-)
 
-![1000041262.png](README%204f62cb02cce44346a163f28b4dd1c18d/1000041262.png)
-
-![1000041261.png](README%204f62cb02cce44346a163f28b4dd1c18d/1000041261.png)
 
 ## How to Install it ?
 
