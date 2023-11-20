@@ -1,6 +1,6 @@
 # README
 
-# To-Do List With Weather Widget And Inspirational Quotes
+# Glance : To-Do List With Weather Widget And Inspirational Quotes
 
 This is a chrome Extension that manages your tasks as well as motivating you with a new inspirational quote whenever you open the extension.
 
