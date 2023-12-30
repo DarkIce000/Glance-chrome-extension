@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "To-Do manager",
+	"name": "Glance",
 	"version": "1.00",
 
 	"action": {
@@ -15,8 +15,4 @@
 	"description": "To do list Manager with Current Temperature",
 	"author": "aarav7397@gmail.com",
 
-	"permissions": [
-		"tabGroups",
-		"tabs"
-	]
 }
